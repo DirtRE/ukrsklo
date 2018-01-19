@@ -1,0 +1,646 @@
+@charset "UTF-8";
+
+
+
+@media (max-width : 1390px) {
+    .limit {
+        width:1170px;
+    }
+}/*/mediaquery*/
+ /*-------------------------------------------------------------------------*/
+@media (max-width : 1240px) {
+    .limit {
+        width: 1170px;
+    }
+}
+ /*-------------------------------------------------------------------------*/
+@media (max-width : 1171px) {
+    .limit {
+        width: 1000px;
+    }
+    header .top_part .logo {
+        margin: 30px 35px 0 35px;
+    }
+    header .top_part .adress, header .top_part .phone_numbers{
+        margin-left: 35px;
+    }
+    header .menu_fon .menu li a {
+        padding: 0 15px;
+    }
+    .content .top_block{
+        margin-top: 25px;
+        margin-bottom: 55px;
+    }
+    .content .vidi_prokcii .kart{
+         width: 305px;
+    }
+    .content .company_info{
+        margin-top: 70px;
+    }
+    .content .company_info .column_left{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .content .company_info .column_left .akciya{
+        display: inline-block;
+        width: 485px;
+        margin-right: 10px;
+        background-size: cover;
+    }
+    .content .company_info .column_left .akciya .uchastie{
+        margin: 25px 0 0 180px;
+    }
+    .content .company_info .column_left .dostavka{
+        display: inline-block;
+        width: 485px;
+        vertical-align: top;
+        background-size: cover;
+        margin-top: 0;
+    }
+    .content .company_info .column_left .dostavka .head_block{
+        top: 10px;
+    }
+    .content .company_info .column_left .dostavka .without_money{
+        padding-right: 15px;
+        padding-top: 85px;
+    }
+    .content .company_info .column_right{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .content .news_block .head_text{
+         margin-bottom: 25px;
+    }
+    .content .news_block .kart{
+        margin-right: 10px;
+        width: 320px;
+    }
+    .content .news_block .all_news{
+        margin: 60px auto 75px;
+    }
+    .content .portfolio .column_right{
+        width: 575px;
+    }
+    .content .akcii .kards .text_field{
+        width: 620px;
+        padding: 10px;
+    }
+    .content .akcii .kards .text_field .other_text{
+        font-size: 16px;
+    }
+    .content .akcii .kards .text_field .date_and_button .button{
+        margin-left: 315px;
+    }
+    .content .question_block{
+        width: 920px;
+    }
+    .content .koordinati .map .map_cont{
+        background-size: cover;
+        height: 320px;
+        margin: -10px auto 0 152px;
+        width: 320px;
+    }
+    .content .koordinati .map .loupe{
+        height: 545px;
+        left: 111px;
+        top: -13px;
+        width: 725px;
+    }
+    .content .koordinati .kont_info{
+        margin-left: 20px;
+    }
+ }
+/*-------------------------------------------------------------------------*/ 
+@media (max-width : 1001px) {
+    .limit {
+        width: 950px;
+    }
+	header .menu_fon .menu li a {
+		padding: 0 10px;
+	}
+	.content .vidi_prokcii .kart {
+		width: 295px;
+	}
+	.content .company_info .column_left .akciya, .content .company_info .column_left .dostavka{
+		width: 465px;
+	}
+	.content .news_block .kart{
+		width: 305px;
+	}
+	.content .portfolio .column_left{
+		width: 345px;
+	}
+	.content .portfolio .column_left li{
+		width: 343px;
+	}
+	.content .akcii .kards .text_field{
+		width: 572px;
+	}
+	.content .akcii .kards .text_field .date_and_button .button{
+		margin-left: 260px;
+	}
+ }
+/*-------------------------------------------------------------------------*/  
+@media (max-width : 951px) {
+    .limit {
+        width: 940px;
+    }
+		header .top_part .logo {
+		margin: 30px 20px 0;
+	}
+	.content .vidi_prokcii .kart {
+		width: 290px;
+	}
+	.content .company_info .column_left .akciya, .content .company_info .column_left .dostavka {
+		width: 460px;
+	}
+	.content .news_block .kart {
+		width: 300px;
+	}
+	.content .portfolio .column_left {
+		width: 335px;
+	}
+	.content .portfolio .column_left li {
+		width: 333px;
+	}
+	.content .portfolio .column_right {
+		width: 550px;
+	}
+	.content .akcii .kards .text_field {
+		width: 560px;
+	}
+	.content .akcii .kards .text_field .date_and_button .button {
+		margin-left: 240px;
+	}
+	.information{
+		padding: 0 10px;
+	}
+	.content .question_block {
+		width: 860px;
+	}
+ }
+ /*-------------------------------------------------------------------------*/ 
+ @media (max-width : 941px) {
+    .limit {
+        width: 758px;
+    }
+	header .top_part .logo {
+		margin: 30px 20px 0 0;
+	}
+	header .top_part form input[type="text"]{
+		width: 190px;
+	}
+	header .top_part .adress, header .top_part .phone_numbers {
+		margin-left: 10px;
+	}
+    header .menu_fon .menu{
+        height: 45px;
+    }
+    header .menu_fon .menu li{
+        line-height: 45px;
+    }
+    header .menu_fon .menu li a{
+        font-size: 12px;
+         padding: 0 5px;
+    }
+    header .menu_fon .menu li:hover .subbar{
+        width: 147%;
+    }
+    /*
+    header .menu_fon .adaptive_menu {
+        display: block;
+        cursor: pointer;
+    }
+    header .menu_fon .menu {
+        display: none;
+        height: 100%;
+        position: absolute;
+        z-index: 999;
+        height: 100%;
+        top: 40px;
+    }
+    header .menu_fon .menu li {
+        display: block;
+        line-height: 34px;
+        width: 227px;
+        background-color: #1e396f;
+    }
+    header .menu_fon .menu li:hover .subbar{
+        left: 235px;
+        top: 15px;
+    }
+    header .menu_fon .menu li:hover .subbar li:hover ul{
+        right: -230px;
+    }
+    */
+    .content .content_form .form_container{
+        width: 720px;
+        margin-right: 35px;
+    }
+    .content .content_form .form_container form .text_input{
+        width: 170px;
+    }
+    .content .content_form .form_container form .naimenovanie select{
+        text-align: left;
+        width: calc(100% - 168px);
+    }
+    .content .content_form .form_container form .naimenovanie .help{
+        margin-left: 5px;
+    }
+    .content .vidi_prokcii .kart{
+        width: 230px;
+        height: 286px;
+    }
+    .content .company_info .column_left .akciya, .content .company_info .column_left .dostavka {
+        width: 372px;
+    }
+    .content .company_info .column_left .akciya .uchastie {
+        margin: 25px 0 0 120px;
+    }
+    .content .company_info .column_left .dostavka .head_block{
+         background-color: rgb(255, 255, 255);
+    }
+    .content .company_info{
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .content .news_block .kart {
+        width: 240px;
+    }
+    footer .menu li{
+        padding: 0 4px;
+    }
+    .content .portfolio .column_left{
+        width: 255px;
+    }
+    .content .portfolio .column_left li{
+        width: 253px;
+    }
+    .content .portfolio .column_right{
+        width: 440px;
+    }
+    .content .akcii .kards .img_container{
+        width: 190px;
+    }
+    .content .question_block {
+        width: 700px;
+    }
+    .content .koordinati .kont_info{
+        margin: 0 auto;
+        display: block;
+    }
+    .content .koordinati .map{
+        display: none;
+    }
+    .content .content_form .form_container form .left_cont{
+        margin-right: 0;
+    }
+} 
+/*-------------------------------------------------------------------------*/ 
+ @media (max-width : 759px) {
+    .limit {
+        width: 630px;
+    }
+    header .menu_fon .menu {
+        height: 92px;
+        text-align: center;
+    }
+    header .menu_fon .menu li {
+        line-height: 45px;
+    }
+    header .menu_fon .menu li a{
+        padding: 0 25px;
+    }
+    header .top_part .logo{
+        height: 43px;
+        width: 150px;
+        background-size: cover;
+    }
+    header .top_part .logo{
+        margin: 15px 20px 0 0;
+    }
+    header .top_part form{
+        margin-top: 30px;
+    }
+    header .top_part form input[type="text"] {
+        width: 145px;
+    }
+    header .top_part .adress span{
+        font-size: 25px;
+    }
+    header .top_part .adress .text_adress{
+        font-size: 12px;
+        line-height: 28px;
+    }
+    header .top_part .adress{
+        margin-top: 26px;
+    }
+    header .top_part .phone_numbers span{
+        margin-right: 5px;
+        font-size: 25px;
+        margin-top: 0;
+        line-height: 46px;
+    }
+    header .top_part .phone_numbers .numbs{
+        font-size: 12px;
+    }
+    header .top_part{
+        height: 75px;
+    }
+    .content .top_block .round .name{
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .content .top_block .round .opisanie{
+        font-size: 13px;
+    }
+    .content .content_form .name{
+        margin-bottom: 20px;
+    }
+    .content .content_form .form_container form .text_input{
+        font-size: 14px;
+        width: 135px;
+        text-align: center;
+    }
+    .content .content_form .form_container form .naimenovanie select{
+        font-size: 14px;
+        width: calc(100% - 132px);
+    }
+    .content .content_form .form_container form .naimenovanie{
+        text-align: left;
+    }
+    .content .content_form .form_container{
+        width: 580px;
+    }
+    .content .content_form .form_container form .naimenovanie .help{
+        text-align: center;
+    }
+    .content .content_form .form_container form .cont .price{
+        width: 260px;
+    }
+    .content .content_form .form_container form .all_summa{
+        margin: 20px auto;
+    }
+    .content .content_form .form_container form{
+        height: 400px;
+    }
+    .content .vidi_prokcii{
+        background: rgba(0, 0, 0, 0) url("../images/bg_vidi_produkcii.png") repeat-y scroll 0 0;
+        padding-top: 25px;
+        height: 995px;
+    }
+    .content .vidi_prokcii .head_text{
+        margin-bottom: 15px;
+    }
+    .content .vidi_prokcii .kart{
+        width: 290px;
+    }
+    .content .company_info .column_left .akciya, .content .company_info .column_left .dostavka{
+        height: 280px;
+        width: 617px;
+    }
+    .content .company_info .column_left .akciya{
+        margin-bottom: 10px;
+    }
+    .content .company_info .column_left .akciya .uchastie{
+        margin: 25px 0 0 245px;
+    }
+    .content .company_info .column_left .dostavka .without_money{
+        padding-top: 100px;
+        padding-right: 45px;
+    }
+    .content .news_block .kart{
+         width: 295px;
+    }
+    .content .news_block .kart:nth-child(4){
+        display: block;
+        margin: 0 auto;
+    }
+    footer .menu{
+        height: 55px;
+    }
+    footer .menu li{
+        line-height: 30px;
+    }
+    .content .portfolio .head_text{
+        margin-bottom: 25px;
+    }
+    .content .portfolio .column_left{
+        display: block;
+        margin: 0 auto 15px;
+        width: 370px;
+    }
+    .content .portfolio .column_left li {
+        width: 368px;
+    }
+    .content .portfolio .column_right {
+        display: block;
+        margin: 0 auto;
+        width: 560px;
+    }
+    .content .akcii .kards .img_container {
+        float: left;
+        margin: 0 20px 10px 0;
+        width: 190px;
+    }
+    .content .akcii .kards .text_field, .content .akcii .kards .text_field .t_text, .content .akcii .kards .text_field .other_text{
+        display: block;
+        width: 100%;
+    }
+    .content .akcii .kards .text_field .date_and_button .button{
+        margin-left: 319px;
+    }
+    .content .question_block {
+        width: 570px;
+    }
+    .content .faq{
+        margin: 25px 0 50px;
+    }
+    .content .content_form .form_container form .left_cont{
+        width: 303px;
+    }
+    .content .content_form .form_container form .right_cont{
+        width: 264px;
+    }
+    .content .content_form .form_container form{
+        height: auto;
+    }
+}
+/* ----------------------------------------------------------- */
+@media (max-width : 631px) {
+    .limit {
+        width: 470px;
+    }
+    .menu {
+        display: none;
+    }
+    header .menu_fon .adaptive_menu {
+        display: block;
+        cursor: pointer;
+    }
+    header .top_part form{
+        display: none;
+    }
+    .content .top_block .round{
+        width: 100%;
+    }
+    .content .top_block .round .img {
+        display: inline-block;
+        float: left;
+        height: 100px;
+        width: 100px;
+    }
+    .content .top_block .round.lid .img, .content .top_block .round.price .img, .content .top_block .round.quality .img{
+        background-size: cover;
+    }
+    .content .content_form .form_container form .cont, .content .content_form .form_container form .cont:nth-child(2n){
+        float: none;
+    }
+    .content .content_form .form_container{
+        height: 580px;
+        margin: 0 auto;
+        width: 262px;
+    }
+    .content .vidi_prokcii .kart {
+        width: 410px;
+    }
+    .content .vidi_prokcii{
+        height: 1950px;
+    }
+    .content .vidi_prokcii .kart .img_container .in_cont{
+        width: 390px;
+    }
+    .content .company_info .column_left .akciya, .content .company_info .column_left .dostavka {
+    height: 280px;
+    width: 460px;
+    }
+    .content .company_info .column_left .akciya .uchastie {
+        margin: 25px 0 0 165px;
+    }
+    .content .news_block .kart {
+        width: 96%;
+    }
+    .content .news_block .kart .in_cont{
+        display: block;
+        text-align: center;
+    }
+    footer .telephones span:nth-child(3){
+        display: block;
+    }
+    .content .news_block .kart:nth-child(4){
+        margin: 0;
+    }
+    .content .content_form .name{
+        font-size: 21px;
+    }
+    footer .telephones{
+        line-height: 22px;
+    }
+    .content .content_form .form_container{
+        height: auto;
+    }
+}
+/* ----------------------------------------------------------- */
+@media (max-width : 471px) {
+    .limit {
+        width: 310px;
+    }
+    header .top_part{
+        position: relative;
+    }
+    header .top_part .logo {
+        margin: 15px 0 0;
+    }
+    header .top_part .adress {
+        margin-top: 5px;
+        margin-left: 5px;
+    }
+    header .top_part .adress span {
+        font-size: 19px;
+    }
+    header .top_part .adress .text_adress{
+        line-height: 20px;
+    }
+    header .top_part .phone_numbers{
+        left: 148px;
+        position: absolute;
+        top: 26px;
+    }
+    .content .top_block .round .name{
+        margin-top: 0;
+    }
+    .content .top_block .round{
+        margin-bottom: 5px;
+    }
+    .content .vidi_prokcii .kart {
+        width: 300px;
+    }
+    .content .company_info .column_left .akciya, .content .company_info .column_left .dostavka {
+        height: 260px;
+        width: 310px;
+    }
+    .content .company_info .column_left .akciya .uchastie {
+        margin: 25px 0 0 90px;
+    }
+    .content .company_info .column_left .dostavka .head_block{
+        right: 30px;
+    }
+    .content .company_info .column_left .dostavka .without_money {
+        padding-right: 75px;
+        padding-top: 90px;
+    }
+    .slider_container .bx-pager{
+        bottom: 5px;
+    }
+    .content .fon {
+        background: none;
+    }
+    .content .portfolio .column_left{
+        width: 310px;
+    }
+    .content .portfolio .column_left li {
+        width: 308px;
+    }
+    .content .portfolio .column_right{
+        display: none;
+    }
+    .content .akcii .kards .text_field .date_and_button .button{
+        margin-left: 3px;
+    }
+    .content .akcii .kards .img_container{
+        width: 150px;
+    }
+    .content .question_block {
+        width: 305px;
+    }
+    .content .faq{
+        font-size: 20px;
+    }
+    .content .question_block .quest .txt, .content .question_block .hide{
+        font-size: 14px;
+        line-height: 22px;
+        padding-left: 10px;
+    }
+    .content .akcii .head_text, .content .faq{
+        margin-bottom: 15px;
+    }
+   .content .other .phones span{
+        display: block;
+    }
+    .content .koordinati .kont_info{
+        padding-top: 15px;
+    }
+    .content .content_form .form_container form .button{
+        margin: 0 auto 0 -25px;
+    }
+    .modal{
+        width: 100%;
+    }
+
+
+
+
+
+
+
+}
